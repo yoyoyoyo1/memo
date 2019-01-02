@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <link href="https://cdn.bootcss.com/bulma/0.7.2/css/bulma.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/axios/0.19.0-beta.1/axios.min.js"></script>
+</head>
+<body>
+    <div id="form">
+        <div id="message"></div>
+        <div class="field">
+            <p class="control has-icons-left has-icons-right">
+                <input id="name" class="input" type="text" placeholder="用户名">
+            </p>
+        </div>
+        <div class="field">
+            <p class="control has-icons-left">
+                <input id="password" class="input" type="password" placeholder="密码">
+            </p>
+        </div>
+        <div class="field">
+            <p class="control">
+                <button type="button" id="submit" class="button is-success">
+                    登陆
+                </button>
+            </p>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>
